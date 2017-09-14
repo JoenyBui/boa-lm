@@ -123,6 +123,10 @@ class Setting(object):
             self.keys = json.load(data_file)
 
     def save_to_settings(self):
+        """
+
+        :return:
+        """
         self.save(self.file)
 
     def save(self, file_path):
